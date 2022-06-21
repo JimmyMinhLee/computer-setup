@@ -67,3 +67,8 @@
 ### IntelliJ Setup
 1. Install all extensions needed. (WIP)
 2. Install (`Cattpuccin`) [https://plugins.jetbrains.com/plugin/18682-catppuccin-theme] theme.  
+
+### Nvim Setup
+
+#### Nvim Things
+1. `nvim +PlugInstall` to install plugins and reload. 
