@@ -1,2 +1,2 @@
 # computer-setup
-All files needed to setup a computer. 
+All the instructions & files needed to setup a fresh computer for Jimmy Lee. 
