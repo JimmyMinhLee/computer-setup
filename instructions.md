@@ -30,6 +30,10 @@
 
   `brew install nvim`
 
+  And:
+
+  `[INSERT INSTALL VIM-PLUG COMMAND]`
+
   5. Install NerdFont:
 
   Pick font from [NerdFont](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts) and install in Font Editor.
@@ -41,6 +45,8 @@
   2. `z` for folder jumping: `fisher install jethrokuan/z`
   3. `exa` for better `ls`: `brew install exa`
   4. `neovim` for
+  5. `nvm` for managing node dependencies: `fisher install jorgebucaran/nvm.fish`
+  6. `node` and `yarn` (ADD) 
 
 #### Other Fish Specific Things
 
@@ -61,14 +67,28 @@
 2. Install `monokai-seti` and `seti`.
 
 ### VSCode Setup
+
 1. Install all extensions needed. (WIP)
 2. Install (`Cattpuccin`)[https://github.com/catppuccin/vscode] theme.
+
+#### VSCode Extensions
+1. Auto Close Tag
+2. Auto Import
+3. Auto Rename Tag
+4. CSS Formatter
+5. Prettier
+6. Simple React Snippets
+7. TypeScript Importer
+8. GitLens
+
 
 ### IntelliJ Setup
 1. Install all extensions needed. (WIP)
 2. Install (`Cattpuccin`) [https://plugins.jetbrains.com/plugin/18682-catppuccin-theme] theme.  
 
 ### Nvim Setup
+1. Download `init.vim` and move into `~/.config/nvim`
 
 #### Nvim Things
-1. `nvim +PlugInstall` to install plugins and reload. 
+1. `nvim +PlugInstall` to install plugins and reload.
+2. `~/.config/nvim/init.vim` is used for all configurations.
