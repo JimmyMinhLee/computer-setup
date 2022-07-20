@@ -23,8 +23,9 @@
 
   `brew install fish`
 
-  Recognizing Fish shell: add `/usr/local/bin/fish` to `/etc/shells`
-  Changing Fish to default shell: `chsh -s /usr/local/bin/fish`
+  Recognizing Fish shell: add `/opt/homebrew/bin/fish` to `/etc/shells`
+  Changing Fish to default shell: `chsh -s /opt/homebrew/bin/fish`
+  For recognizing Homebrew again: `fish_add_path /opt/homebrew/bin`
 
   4. NeoVim:
 
@@ -41,12 +42,14 @@
 ### Fish Setup
 
   1. Fisher: `curl -sL https://raw.githubusercontent.com/jorgebucaran/fisher/main/functions/fisher.fish | source && fisher install jorgebucaran/fisher`
+  2. `Tide` for a better UX: `fisher install IlanCosman/tide@v5`
+  3. `z` for folder jumping: `fisher install jethrokuan/z`
+  4. `exa` for better `ls`: `brew install exa`
+  5. `neovim` for code editing
+  6. `node` - `brew install node`
+  7. `nvm` for managing node dependencies: `fisher install jorgebucaran/nvm.fish`
+  8. `yarn` - `npm install --global yarn`
 
-  2. `z` for folder jumping: `fisher install jethrokuan/z`
-  3. `exa` for better `ls`: `brew install exa`
-  4. `neovim` for
-  5. `nvm` for managing node dependencies: `fisher install jorgebucaran/nvm.fish`
-  6. `node` and `yarn` (ADD) 
 
 #### Other Fish Specific Things
 
