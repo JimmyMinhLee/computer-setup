@@ -33,7 +33,8 @@
 
   And:
 
-  `[INSERT INSTALL VIM-PLUG COMMAND]`
+  `Plugger` : `sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
+       https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'`
 
   5. Install NerdFont:
 
@@ -90,8 +91,8 @@
 2. Install (`Cattpuccin`) [https://plugins.jetbrains.com/plugin/18682-catppuccin-theme] theme.  
 
 ### Nvim Setup
-1. Download `init.vim` and move into `~/.config/nvim`
-
+1. Move `nvim` directory to `~/.config`
+2. Install `ripgrep` using: `brew install ripgrep`
 #### Nvim Things
 1. `nvim +PlugInstall` to install plugins and reload.
 2. `~/.config/nvim/init.vim` is used for all configurations.
