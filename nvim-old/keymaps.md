@@ -1,9 +1,11 @@
 ### Keymaps 
 
+To make a keybinding: vim.keymap.set(MODE, keymap, function)
 #### Built In Keybindings 
 1. f will put you forward to the character you input after, F will move you back   
 2. V will highlight the current line you're on 
 3. p will paste an item right under your current line
+4. Ctrl + a will increment the next number 
 
 #### File Explorer View 
 1. In directory view, % sign will make a new file. 
@@ -11,7 +13,7 @@
 
 #### Normal Mode 
 1. Space is our leader. 
-2. Space + PV pulls up the file explorer. 
+2. Space + ds pulls up the file explorer. 
 #### Command Mode 
 1. :Ex pulls up the file explorer.
 #### Visual Mode 
@@ -24,12 +26,46 @@
 
 ### Fuzzy Finder - Telescope 
 Hops between things quickly. 
-1. space + pf will open the file finder (shift shift in intellij) 
+1. space + ff will open the file finder (shift shift in intellij) 
 2. Control P will open your git files 
-3. leader ps will open the live grep to find actual instance usages (ctrl shift f in intelliJ)  
+3. leader fif will open the live grep to find actual instance usages (ctrl shift f in intelliJ)  
 
 ### TreeSitter 
 Creates a tree of your code. 
+
+### Harpoon 
+Navigating files you add to a list. 
+1. Space a will add a file to the list 
+2. Ctrl + e will open the ui
+3. Ctrl + h will go to the first file 
+4. Ctrl + t will go to the second file 
+5. Ctrl + n will go to the third file 
+6. Ctrl + s will go to the fourth file 
+
+### UndoTree 
+Gives you a way to find your edit history on a file 
+1. Leader u to pull up the menu
+
+### VimFugitive
+Show you git 
+1. Spoace + gs will open the pane
+
+### LSP-zero 
+CMP
+1. Ctrl + p = prev 
+2. Ctrl + n = next 
+3. Ctrl + y = accept 
+4. Ctrl + space = open completions 
+
+LSP 
+1. gd = go to definition 
+
+### Diagnostics - LSP_lines
+1. space + L to expand or disable the diagnostic messages 
+
+### Testing - nvim-test 
+1. leader t to test the function 
+2. leader T to test the whole file
 
 #### Command for plugin manager: 
 1. packer: git clone --depth 1 https://github.com/wbthomason/packer.nvim\
