@@ -67,6 +67,8 @@ LSP
 1. leader t to test the function 
 2. leader T to test the whole file
 
+### ToggleTerm 
+1. C-t to open the terminal 
 #### Command for plugin manager: 
 1. packer: git clone --depth 1 https://github.com/wbthomason/packer.nvim\
  ~/.local/share/nvim/site/pack/packer/start/packer.nvim
