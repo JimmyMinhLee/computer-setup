@@ -57,7 +57,7 @@ CMP
 3. Ctrl + y = accept 
 4. Ctrl + space = open completions 
 
-LSP 
+### LSP 
 1. gd = go to definition 
 
 ### Diagnostics - LSP_lines
@@ -69,6 +69,7 @@ LSP
 
 ### ToggleTerm 
 1. C-t to open the terminal 
+
 #### Command for plugin manager: 
 1. packer: git clone --depth 1 https://github.com/wbthomason/packer.nvim\
  ~/.local/share/nvim/site/pack/packer/start/packer.nvim
